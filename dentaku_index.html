@@ -8,43 +8,43 @@
     </head>
 
     <body> 
-        <h3>電卓</h3>
+      <h3>電卓</h3>
 
-        <div id="container">
-            <div id="result">0</div>
+      <div id="container">
+        <div id="result">0</div>
 
-            <table>
-                <tr>
-                    <td><button onclick = "clickbutton(this)">7</button></td>
-                    <td><button onclick = "clickbutton(this)">8</button></td>
-                    <td><button onclick = "clickbutton(this)">9</button></td>
-                    <td><button onclick = "clickbutton(this)">+</button></td>
-                </tr>
-                <tr>
-                    <td><button onclick = "clickbutton(this)">4</button>
-                    <td><button onclick = "clickbutton(this)">5</button></td>
-                    <td><button onclick = "clickbutton(this)">6</button></td>
-                    <td><button onclick = "clickbutton(this)">-</button></td>
-                </tr>
-                <tr>
-                    <td><button onclick = "clickbutton(this)">1</button></td>
-                    <td><button onclick = "clickbutton(this)">2</button></td>
-                    <td><button onclick = "clickbutton(this)">3</button></td>  
-                    <td><button onclick = "clickbutton(this)">*</button></td>            
-                </tr>
-                <tr>
-                    <td><button onclick = "clickbutton(this)">0</button></td>
-                    <td><button onclick = "clickbutton(this)">00</button></td>
-                    <td><button onclick = "clickbutton(this)">.</button></td>
-                    <td><button onclick = "clickbutton(this)">/</button></td>
-                </tr>   
-                <tr>
-                    <td colspan="2"><button onclick = "clickbutton(this)" id = "AC">AC</button></td>
-                    <td colspan="2"><button onclick = "clickbutton(this)" id = "equal">=</button></td>
-                </tr>
-            </table>
-        </div>
-
+        <table>
+          <tr>
+            <td><button onclick = "clickbutton(this)">7</button></td>
+            <td><button onclick = "clickbutton(this)">8</button></td>
+            <td><button onclick = "clickbutton(this)">9</button></td>
+            <td><button class = "sign" onclick = "clickbutton(this)">+</button></td>
+          </tr>
+          <tr>
+            <td><button onclick = "clickbutton(this)">4</button>
+            <td><button onclick = "clickbutton(this)">5</button></td>
+            <td><button onclick = "clickbutton(this)">6</button></td>
+            <td><button class = "sign" onclick = "clickbutton(this)">-</button></td>
+          </tr>
+          <tr>
+            <td><button onclick = "clickbutton(this)">1</button></td>
+            <td><button onclick = "clickbutton(this)">2</button></td>
+            <td><button onclick = "clickbutton(this)">3</button></td>  
+            <td><button class = "sign" onclick = "clickbutton(this)">*</button></td>            
+          </tr>
+          <tr>
+            <td><button onclick = "clickbutton(this)">0</button></td>
+            <td><button onclick = "clickbutton(this)">00</button></td>
+            <td><button onclick = "clickbutton(this)">.</button></td>
+            <td><button class = "sign" onclick = "clickbutton(this)">/</button></td>
+          </tr>   
+          <tr>
+            <td colspan="2"><button onclick = "clickbutton(this)">AC</button></td>
+            <td colspan="2"><button onclick = "clickbutton(this)">=</button></td>
+          </tr>
+        </table>
+      </div>
+      
         <script src="dentaku_main.js"></script>
     </body>
 </html>
